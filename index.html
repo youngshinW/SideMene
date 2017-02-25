@@ -21,7 +21,7 @@
     <!--<link rel="shortcut icon" href="favicon.ico" />-->
 
     <link rel="stylesheet" href="css/reset.css"/>
-    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet/less" type="text/css" href="css/main.less" />
 
     <!--[if lt ie 9]>
     <script src="js/lib/ie9.js"></script>
@@ -33,15 +33,65 @@
     <script src="js/plugins/jquery.easing.min.js"></script>
     <script src="js/plugins/prefixfree.min.js"></script>
 
+    <script src="js/lib/less.min.js"></script>
+
     <script src="js/main.js"></script>
 
 </head>
 <body>
-<div class="container">
 
-
-
+<div class="side_shadow">
 
 </div>
+
+<div class="side_menu_btn">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+<div class="side_menu">
+
+    <div class="info">
+        <figure>
+            <img src="http://www.herop.me/images/profile.png" alt="captain america">
+            <figcaption>captain america</figcaption>
+        </figure>
+        <img class="close_btn" src="http://www.herop.me/images/close_btn.png" alt="close">
+    </div>
+
+    <ul class="main_menu">
+        <li>
+            <a class="arrow">menu1</a>
+            <ul class="sub_menu">
+                <li><a href="#">content</a></li>
+                <li><a href="#">content</a></li>
+                <li><a href="#">content</a></li>
+                <li><a href="#">content</a></li>
+            </ul>
+        </li>
+        <li>
+            <a class="arrow">menu2</a>
+            <ul class="sub_menu">
+                <li><a href="#">content</a></li>
+                <li><a href="#">content</a></li>
+                <li><a href="#">content</a></li>
+                <li><a href="#">content</a></li>
+            </ul>
+        </li>
+        <li><a href="#">menu3</a></li>
+        <li>
+            <a class="arrow">menu4</a>
+            <ul class="sub_menu">
+                <li><a href="#">content</a></li>
+                <li><a href="#">content</a></li>
+                <li><a href="#">content</a></li>
+                <li><a href="#">content</a></li>
+            </ul>
+        </li>
+    </ul>
+
+</div>
+
 </body>
 </html>
