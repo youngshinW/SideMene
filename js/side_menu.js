@@ -51,7 +51,7 @@ SideMenu.prototype = {
         this.$hideBtn.on('click', function () {
             _this.hideMenu();
         });
-        this.list.on('click', function () {
+        this.$list.on('click', function () {
             _this.togleList($(this));
         });
     }
